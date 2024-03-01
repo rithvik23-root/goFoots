@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GoFOOTS.com</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="jquery-3.5.1.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+	<style type="text/css">
+    html{
+      height: 100%;
+      width: 100%
+    }
+		.navbar-default .navbar-nav>li>a {
+              color:black;
+}
+.navbar-default .navbar-brand {
+    color:rgb(51, 51, 51);
+}
+		.navbar-brand
+		{
+			font-weight: bold;
+		}
+		.dropdown-menu>li>a:hover{
+			background: skyblue
+		}
+		
+         .thumbnail{
+         	/*border:none;*/
+         	height: 250px;
+
+
+
+         }
+         button{
+         	margin-left: 100px;
+         	/*display: none;*/
+         	/*transition: all 0.5s;*/
+
+         	/*margin-top: 50px;*/
+         }
+         .add{
+         	/*opacity: 0*/
+         	margin-top: 50px;
+         	/*width:0px;*/
+         	opacity: 0;
+          background: transparent;
+          outline: none;
+          border: 1px solid black
+          /*margin-left:110px;        	/*width: 0px*/
+         	/*opacity:0;*/
+         	/*height: 0px;
+         	width: 0px;*/
+
+         }
+
+         .buy{
+         	/*width: 0px;*/
+         	margin-top:5px;
+         	opacity: 0;
+          background: transparent;
+          outline: none;
+          border: 1px solid black;
+          /*margin-left: 110px;*/
+          
+         	
+         }
+           /*span{
+          	/*display: none;*/
+          	/*height: 0px;
+          	width: 0px;*/
+          	.thumbnail:hover{
+          	height: 370px;
+          	transition: all 0.5s;
+          	 box-shadow: 5px 5px 20px rgb(128,128,128);
+          }
+          
+          .thumbnail:hover .add{
+          	transition: all 1s;
+          	width: 100px;
+          	opacity: 1;
+          	
+
+          }
+          .thumbnail:hover .buy{
+          	transition: all 1s;
+          	width: 100px;
+          	opacity: 1;
+          	
+          }
+          #foot{
+            margin-bottom: 0
+            /*margin-top:10px;*/
+          }
+
+          
+          
+          /*img{
+          	width: 300px;
+          }*/
+
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="homepage.html">GoFOOTS</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Casual shoes</a></li>
+            <li><a href="#">Formal shoes</a></li>
+            <li><a href="#">Sports shoes</a></li>
+<!--             <li role="separator" class="divider"></li>
+ -->        <li><a href="#">Sneakers</a></li>
+            <li><a href="#">Boots</a></li>
+             <li><a href="#">Flip Flops</a></li>
+
+
+
+            <!-- <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li> -->
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search GoFOOTS">
+        </div>
+        <button type="submit" class="btn btn-default">GO!</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><i class="fas fa-list"></i><b> Wishlist</b></a></li>
+
+        <li><a href="#"><i class="fas fa-shopping-cart"></i><b> Cart</b></a></li>
+                <!-- <li><a href="#">Customer Care</a></li> -->
+
+      
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="row">
+	<div class="col-lg-3">
+		<div class="thumbnail">
+			<img src="https://m.media-amazon.com/images/I/61fmC2iDPcL._AC_UL320_.jpg">
+			<span class="butt">
+			<button class="add">Add CART</button><br>
+			<button class="buy">BUY NOW</button>
+		</span>
+		</div>
+	</div>
+<!-- <div class="container"> -->
+
+	<div class="col-lg-3">
+		<div class="thumbnail">
+			<img src="https://m.media-amazon.com/images/I/61DGiOzo0-L._AC_UL320_.jpg">
+			<span class="butt">
+			<button class="add">Add CART</button><br>
+			<button class="buy">BUY NOW</button>
+		</span>
+		</div>
+	</div>
+
+
+	<div class="col-lg-3">
+		<div class="thumbnail">
+			<!-- <div class="row-no-gutters"> -->
+			<img src="https://m.media-amazon.com/images/I/81pWXSvdKUL._AC_UL320_.jpg">
+		<!-- </div> -->
+		<span class="butt">
+			<button class="add">Add CART</button><br>
+			<button class="buy">BUY NOW</button>
+		</span>
+		</div>
+	</div>
+	<div class="col-lg-3">
+		<div class="thumbnail">
+			<!-- <div class="row-no-gutters"> -->
+			<img src="https://m.media-amazon.com/images/I/71bqsatJ5rL._AC_UL320_.jpg">
+		<!-- </div> -->
+		<span class="butt">
+			<button class="add">Add CART</button><br>
+			<button class="buy">BUY NOW</button>
+		</span>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-lg-3">
+		<div class="thumbnail">
+			<img src="https://m.media-amazon.com/images/I/619PwSrec2L._AC_UL320_.jpg">
+			<span class="butt">
+			<button class="add">Add CART</button><br>
+			<button class="buy">BUY NOW</button>
+		</span>
+		</div>
+	</div>
+
+	<div class="col-lg-3">
+		<div class="thumbnail">
+			<img src="https://m.media-amazon.com/images/I/61yVlTPSBtL._AC_UL320_.jpg">
+			<span class="butt">
+			<button class="add">Add CART</button><br>
+			<button class="buy">BUY NOW</button>
+		</span>
+		</div>
+	</div>
+	<div class="col-lg-3">
+		<div class="thumbnail">
+			<img src="https://m.media-amazon.com/images/I/71wpQZrO-JL._AC_UL320_.jpg">
+			<span class="butt">
+			<button class="add">Add CART</button><br>
+			<button class="buy">BUY NOW</button>
+		</span>
+		</div>
+	</div>
+	<div class="col-lg-3">
+		<div class="thumbnail">
+			<img src="https://m.media-amazon.com/images/I/81XCjX7QnoL._AC_UL320_.jpg">
+			<span class="butt">
+			<button class="add">Add CART</button><br>
+			<button class="buy">BUY NOW</button>
+		</span>
+		</div>
+	</div>
+
+</div>
+
+<nav class="navbar navbar-default " id="foot">
+  
+    <ul class="nav navbar-nav navbar-left">
+      <li>GOFoots.inc</li>
+    </ul>
+  
+  <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">About us</a></li>
+                <li><a href="#">Customer Care</a></li>
+                <li><a href="#">Email</a></li>
+                <li><a href="#">Chat</a></li>
+
+      
+      </ul>
+    
+</nav>
+</div>
+
+
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<script type="text/javascript" src="firstpage.js"></script>
+</body>
+</html>

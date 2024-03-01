@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>website</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="jquery-3.5.1.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	<style type="text/css">
+		
+		#main{
+			width: 50%;
+		}
+		h1{
+			/*text-align: center;*/
+			margin-top: 0px;
+			background: white;
+			width: 50%;
+			margin-left: 500px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			border-radius: 20px;
+			font-family: 'Alata', sans-serif;
+			font-size: 45px;
+			color: rgb(51, 51, 51);
+
+
+
+		}
+		#mainbt{
+			/*float: right;*/
+			margin-top: 100px;
+			margin-left: 80px;
+			margin-right: 0px
+			/* max-width: 600px; */
+
+		}
+		#skip{
+			/*margin-top: 15px;*/
+			/*margin-right: 50px;*/
+			/*color: black*/
+			float: right;
+			margin-right:100px;
+			/*margin-bottom: 250px;*/
+			margin-top: 0px
+
+		}
+		 .navbar-default .navbar-nav>li>a {
+              color:black;
+}
+.navbar-default .navbar-brand {
+    color:rgb(51, 51, 51);
+}
+		.navbar-brand
+		{
+			font-weight: bold;
+		}
+		.dropdown-menu>li>a:hover{
+			background: skyblue
+		}
+		body{
+			background-image: url(https://i.pinimg.com/originals/8a/12/31/8a1231a284557db34ab0705b5e844b1b.gif);
+			background-position: center;
+			background-size: cover;
+			/*position: absolute;*/
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			height: 100%;
+			width:100%;
+		}
+		html{
+			width: 100%;
+			height: 100%;
+
+		}
+		 #log{
+		 	outline: none;
+		 				border:1px solid rgb(128, 128, 128);
+
+		 	border-radius:10px;
+		 	/*border:rgb(128, 128, 128);*/
+
+			font-family: 'Alata', sans-serif;
+			font-size: 25px
+
+					}
+		#sign{
+			outline: none;
+						border:1px solid rgb(128, 128, 128);
+
+			border-radius: 10px;
+			/*border:rgb(128, 128, 128);*/
+
+			font-family: 'Alata', sans-serif;
+			font-size: 25px
+		}
+		 #skip{
+		 	border:1px solid rgb(128, 128, 128);
+		 	border-radius: 5px;
+
+            font-weight: bolder;
+            font-size: 30px
+            /*border:1;*/
+            /*font-color:rgb(51, 51, 51);*/
+
+		}
+		em{
+			color: rgb(51, 51, 51);
+		}
+		.signUpForm{
+			margin-left: 500px;
+			display: none;
+			margin-top:100px;
+			background: white;
+			width: 20%;
+			padding-left: 25px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			box-shadow: 5px 5px 20px rgb(128,128,128);
+			border-radius:10px;
+			
+
+		}
+		.loginForm{
+			margin-left: 500px;
+			display: none;
+			margin-top:150px;
+			background: white;
+			width: 23%;
+			padding-left: 50px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			box-shadow: 5px 5px 20px rgb(128,128,128);
+			border-radius:10px;
+		}
+		.lb1{
+			margin-left: 60px;
+			font-family: 'Alata', sans-serif;
+			font-size: 20px;
+			margin-top: 0px;
+		}
+		.lb2{
+			margin-left: 73px;
+			font-family: 'Alata', sans-serif;
+			font-size: 20px;
+			margin-top: 0px;
+
+		}
+
+		#lg{
+            margin-top: 10px;
+            border: none;
+            background: transparent;
+		}
+
+		#sg{
+			 margin-top: 10px;
+            border: none;
+            background: transparent;
+
+		}
+		
+
+
+		
+
+		
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+	<nav class="navbar navbar-default ">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="homepage.html">GoFOOTS</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Casual shoes</a></li>
+            <li><a href="#">Formal shoes</a></li>
+            <li><a href="#">Sports shoes</a></li>
+<!--             <li role="separator" class="divider"></li>
+ -->        <li><a href="#">Sneakers</a></li>
+            <li><a href="#">Boots</a></li>
+             <li><a href="#">Flip Flops</a></li>
+   <!-- <li><a href="#">One more separated link</a></li> --> 
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search GoFOOTS">
+        </div>
+        <button type="submit" class="btn btn-default"> GO!</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><button id="lg">Login <i class="fas fa-sign-in-alt"></i></button></li>
+                <li><button id="sg">Sign Up <i class="fas fa-user-plus"></i></button></li>
+
+      
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div id="main"><h1>GOFOOTS.COM</h1></div>
+<div>
+	<form class="signUpForm">
+		<div>
+			<label class="lb1">Sign Up!</label>
+			<label>
+ 			<input type="text" name="Firstname" required="true" placeholder="Firstname"></label>
+ 			<label><input type="text" name="Lastname"
+ 			required="true" placeholder="Lastname"></label>
+ 		</div>
+ 		<div><label>
+ 			<input type="email" name="email" placeholder="E-mail" required="true">
+ 		</div></label>
+ 		<div><label>
+ 			<input type="password" name="pass"
+ 			placeholder="Enter Password" required="true">
+ 		</div></label>
+ 		<div><label>
+ 			<input type="text" name="repass"
+ 			required="true" placeholder="Confirm Password">
+ 		</div></label>
+ 			<button id="signUp" class="btn btn-default">Create Account!</button>
+ 			<p id="second"><a href="#">Already have an account?</a></p>
+
+ 			
+ 			
+ 		</form>
+ 		<form class="loginForm">
+ 			<label class="lb2">Login!</label><br>
+ 			<label><input type="text" name="username"
+ 			placeholder="Username" required="true"></label><br>
+ 			<label><input type="password" name="password" required="true" placeholder="Password"></label><br>
+ 			<button id="login" class="btn btn-default">Login!</button>
+ 			<p id="first">Not a member yet?, <a
+ 			href="#">Click here!</a></p>
+ 		</form>
+</div>
+		
+	
+	
+</div>
+	<div id="mainbt"><button id="log">login <i class="fas fa-sign-in-alt"></i></button><br><br>
+		<button id="sign">signUp <i class="fas fa-user-plus"></i></button>
+
+		<a href="firstpage.html"><button id="skip"><em>SHOP NOW<i class="fas fa-shopping-cart"></i></em></button></a>
+	</div>
+</div>
+<!-- <nav class="navbar navbar-default navbar-fixed-bottom">
+</nav> -->
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</div>
+<script type="text/javascript" src="homepage.js"></script>
+</body>
+</html>
